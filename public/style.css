@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+ul {
+    width: 30%;
+    height: 60vh;
+    margin: 0 35%;
+    overflow: auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    height: 60px;
+    width: 40vw;
+    overflow: auto;
+    resize: none;
+}
