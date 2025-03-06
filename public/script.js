@@ -1,4 +1,4 @@
-const socket = new WebSocket("ws://" + window.location.hostname);
+const socket = new WebSocket("ws://" + window.location.host);
 
 socket.onopen = () => {
     console.log("connected to server");
