@@ -3,17 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>International checkers</title>
     <link rel="stylesheet", href="style.css"></link>
+
+    <script src="setup.js" defer></script>
+    <script src="draw.js" defer></script>
+    <script src="game.js" defer></script>
+    <script src="socket.js" defer></script>
 </head>
 <body>
-    <h1>Successful connection!</h1>
-    <ul id="msgs">
-        <li>Welcome!</li>
-    </ul>
-    <div id="input">
-        <textarea id="enter" placeholder="Enter text..."></textarea>
+    <h1>International checkers</h1>
+    <div id="main-area">
+        <div id="link">
+            <a href="rules.html" target="_blank" class="clock">Rules</a>
+        </div>
+        <div id="canvas-div">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div id="clock">
+            <span id="other-clock" class="clock">5:00</span>
+            <span id="this-clock" class="clock">5:00</span>
+        </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>

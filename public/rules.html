@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rules</title>
+    <link rel="stylesheet" href="rules.css">
+</head>
+<body>
+    <h1>Rules: International checkers</h1>
+    <div>
+        <h2>Starting position</h2>
+        <div id="starting-positions">
+            <ul>
+                <li>The game is played an a 10×10 board chess-like board. The bottom left tiles must be dark just like in chess.</li>
+                <li>Each player starts with 20 pieces, all on dark squares, with two rows empty in the middle.</li>
+            </ul>
+            <div class="img">
+                <img src="starting.png" alt="starting position in checkers">
+                <span>Starting position in checkers</span>
+            </div>
+        </div>
+        <h2>Moves and captures</h2>
+
+    <!-- Example of moves, including notation -->
+        <ul>
+            <li>The player with the light pieces moves first. Then turns alternate.</li>
+            <li>Ordinary pieces move one square diagonally forward to an unoccupied square.</li>
+            <li>Capturing can be done by jump over a piece, moving two squares forward or backward. The move with the most captures <em>must</em> be made.</li>
+            <li>If, after capturing, the piece lands on a tile where it can capture it, must.</li>
+            <li>The captured pieces are only removed after the move.</li>
+        </ul>
+
+        <h2>Crowning</h2>
+        <ul>
+            <li>Crowning happens when a piece reaches the far side of the board. In this case the piece is turned into a <em>king</em>.</li>
+            <li>Kings can move any number of squares backward or forward.</li>
+        </ul>
+
+        <h2>Winning and draws</h2>
+        <ul>
+            <li>If a player cannot make a legal move, loses. This can either be because they have no pieces left or because they are obstructed.</li>
+            <li>The game is a draw if neither of the player can win:</li>
+            <ul>
+                <li>A king-versus-king endgame</li>
+                <li>The same position is repeated three times, with the same player having the move</li>
+            </ul>
+        </ul>
+</div>
+</body>
+</html>

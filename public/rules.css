@@ -1,0 +1,41 @@
+html {
+    background-color: burlywood;
+}
+
+body {
+    margin: 0 20vw;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: justify;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#starting-positions {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border: 2px solid black;
+}
+
+.img {
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img > span {
+    text-align: center;
+    font-style: italic;
+}

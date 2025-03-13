@@ -1,24 +1,57 @@
+body {
+    background-color: antiquewhite;
+}
+
 h1 {
     text-align: center;
 }
 
-ul {
-    width: 30%;
-    height: 60vh;
-    margin: 0 35%;
-    overflow: auto;
-    list-style-type: none;
-    padding: 0;
+#link {
+    text-align: center;
 }
 
-#input {
+a {
+    font-size: larger;
+    width: 10vw;
+}
+
+a:visited {
+    color: lightgoldenrodyellow;
+}
+
+#main-area {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#clock {
+    grid-row: 0;
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 24px
+}
+
+.clock {
+    font-size: large;
+    margin: 4px 8px;
+    padding: 4px 8px;
+    background-color: #444;
+    color: lightgoldenrodyellow;
+    border-radius: 8px;
+    width: min-content;
+    font-weight: bold;
+}
+
+#canvas {
+    grid-row: 0;
+    grid-column: 2;
+}
+
+#canvas-div {
     display: flex;
     justify-content: center;
-}
-
-textarea {
-    height: 60px;
-    width: 40vw;
-    overflow: auto;
-    resize: none;
 }
